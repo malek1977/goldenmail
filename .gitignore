@@ -1,0 +1,38 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Production builds
+.next/
+out/
+dist/
+build/
+
+# Environment
+.env
+.env*.local
+!.env.example
+
+# Database
+backend/prisma/*.db
+backend/prisma/*.db-journal
+backend/prisma/dev.db*
+
+# Logs
+*.log
+npm-debug.log*
+pm2-*.log
+logs/
+
+# Editor
+.vscode/
+.idea/
+.DS_Store
+*.swp
+*.swo
+
+# Misc
+backups/
+tmp/
+*.tmp
